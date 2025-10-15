@@ -1,5 +1,6 @@
 #include "eleven.h"
 
+
 bool Eleven::numberCheck(unsigned char num) const{
     return num >= 0 && num <= 10;
 }
