@@ -1,5 +1,7 @@
 #include "eleven.h"
 
+#include <algorithm> 
+
 bool Eleven::numberCheck(unsigned char num) { return num >= 0 && num <= 10; }
 
 void Eleven::pruning() {

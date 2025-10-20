@@ -1,6 +1,6 @@
-#include <gtest/gtest.h>
-
 #include "eleven.h"
+
+#include <gtest/gtest.h>
 
 TEST(ElevenTest, Constructor1) {
     Eleven num;
