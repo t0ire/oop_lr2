@@ -1,6 +1,6 @@
-#include "eleven.h"
-
 #include <algorithm> 
+
+#include "eleven.h"
 
 bool Eleven::numberCheck(unsigned char num) { return num >= 0 && num <= 10; }
 
